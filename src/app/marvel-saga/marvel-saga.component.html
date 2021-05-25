@@ -1,0 +1,13 @@
+<!-- INÍCIO DO CONTEÚDO -->
+<section class="content">
+    <div class="card mb-3">
+        <h1>Sagas da Marvel Comics</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-6" *ngFor="let marvels of saga">
+            <app-marvel [marvels] = "marvels"></app-marvel>
+        </div>
+    </div>
+</section>
+<!-- FIM DO CONTEÚDO -->
+<!-- /.info-box-content -->
