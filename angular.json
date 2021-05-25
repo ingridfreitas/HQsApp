@@ -119,10 +119,6 @@
           }
         }
       }
-    }
-  },
-  "defaultProject": "marvel-app",
-  "cli": {
-    "analytics": "14d28dab-793a-417d-a348-719502c1a550"
-  }
+    }},
+  "defaultProject": "marvel-app"
 }
