@@ -1,0 +1,17 @@
+hr{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.titulo{
+    text-align: center;
+    padding-left: 50px;
+}
+.ano{
+    margin-top: 55px;
+}
+i{
+    padding-right: 5px;
+}
+img{
+    max-width: 515px;
+}

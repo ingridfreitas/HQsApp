@@ -1,0 +1,60 @@
+
+nav{
+    height: 70px;
+}
+
+.toggle{
+    width: 250px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+.guia{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    z-index: 0;
+}
+label .a{
+    margin-left: 40px;
+    color: #ffffff;
+}
+label .b{
+    margin-left: 90px;
+    color: #000000;
+}
+.chip{
+    width: 122px;
+    height: 35px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    margin-top: -43px;
+    margin-left: 3px;
+    transition: all 0.5s;
+    z-index: 1;
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+}
+#check:checked + label .chip{
+    background-color: #0044ff;
+    margin-left: 3px;
+    transition: all 0.5s;
+    transform:translateX(122px);
+    z-index: 1;
+}
+#check:checked + label .a{
+    color: #000000;
+}
+#check:checked + label .b{
+    color: #ffffff;
+    z-index: 0;
+}
+label{
+    margin-left: 120px;
+}
